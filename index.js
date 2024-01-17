@@ -97,6 +97,16 @@ function goBack(){
               document.getElementById("go-back").style.display="none"
     
 }
+
+
+function goBack3(){
+    let exlr=document.getElementById("content-container").style.display="grid";
+             document.getElementById("content-container-two").style.display="none"
+              document.getElementById("go-back").style.display="none"
+    
+}
+
+
 function contTwo(){
   
              document.getElementById("content-container-two").style.display="grid"
@@ -134,6 +144,7 @@ const artsHop=document.getElementById("shop-container");
 const freemiumOne=document.getElementById("freemium-one");
 const freemiumTwo=document.getElementById("freemium-two");
 const freemiumThree=document.getElementById("freemium-three");
+const headlineImg=document.querySelector(".headline-img");
 /*------------------------------------------------------------------------------------------------------------------------------*/
 let contentContTwo= document.getElementById("content-container-two");
 
@@ -266,6 +277,30 @@ let contentContTwo= document.getElementById("content-container-two");
          let articleEight=document.querySelector(".article-eight").style.display="none";
          let articleNine=document.querySelector(".article-nine").style.display="block";
      };
+	 
+headlineImg.addEventListener("click",clik4More );
+function  clik4More (){
+	let contentContTwo= document.getElementById("content-container-two").style.display="none";
+	 let moreContz=document.querySelector(".more-contentz").style.display="block";
+	 	 let moreContzBack=document.querySelector(".back3").style.display="block";
+	 let articleOne=document.querySelector(".article-one").style.display="none";
+         let articleTwo=document.querySelector(".article-two").style.display="none";
+         let articleThree=document.querySelector(".article-three").style.display="none";
+         let articleFour=document.querySelector(".article-four").style.display="none";
+         let articleFive=document.querySelector(".article-five").style.display="none";
+         let articleSix=document.querySelector(".article-six").style.display="none";
+         let articleSeven=document.querySelector(".article-seven").style.display="none";
+         let articleEight=document.querySelector(".article-eight").style.display="none";
+         let articleNine=document.querySelector(".article-nine").style.display="block";
+		 
+};
+
+function goBack3(){
+    let moreContz=document.querySelector(".more-contentz").style.display="none";
+	 	 let moreContzBack=document.querySelector(".back3").style.display="none";
+		  document.getElementById("content-container-two").style.display="grid"
+    
+}
      
 const  code=document.getElementById("got-the-code");
 code.addEventListener("click",codeFunc);
@@ -448,13 +483,13 @@ if(screen.availHeight===728){inst.style.fontSize=".8rem"};
 
 const itemTitle=document.querySelectorAll("#article-head-s2");
 for(let titles=0;titles<itemTitle.length;titles++){
-if(screen.availHeight===680){itemTitle[titles].style.fontSize="1rem"};
-if(screen.availHeight===728){itemTitle[titles].style.fontSize="1rem"};
+if(screen.availHeight===680){itemTitle[titles].style.fontSize=".8rem"};
+if(screen.availHeight===728){itemTitle[titles].style.fontSize=".9rem"};
 }
 
 const itemDesc=document.querySelectorAll(".article-desc-s2");
 for(let Desc=0;Desc<itemTitle.length;Desc++){
-if(screen.availHeight===680){itemDesc[Desc].style.fontSize=".7rem"};
+if(screen.availHeight===680){itemDesc[Desc].style.fontSize="1rem"};
 if(screen.availHeight===728){itemDesc[Desc].style.fontSize=".8rem"};
 }
 
@@ -467,5 +502,12 @@ for (let topicD=0;topicD<topicDescription.length;topicD++){
 	if(screen.availHeight===728){topicDescription[topicD].style.fontSize=".7rem"};
 }
 
-
- 
+function alison(){
+	window.open("https://alison.com/?utm_source=alison_user&utm_medium=affiliates&utm_campaign=11682105","_blank");
+};
+ function passio(){
+	window.open("https://play.google.com/store/apps/details?id=com.ecomobi.social_seller","_blank");
+};
+ function addmefast(){
+	window.open("https://addmefast.com/login/incorrect","_blank");
+};
