@@ -351,7 +351,7 @@ function sendEmail(){
     Body : body
 }).then(
   message =>confirm("thanks for filling out the details"+" "+"please confirm if you put a valid E-mail and name details"+" "+
-  "here's  your code: ZsZ4NVRr"+" , " +"an email submision is not mandatory but please understand that it can help us grow our small startup business")
+  "here's  your code:ZsZ4NVRr"+" , " +"an email submision is not mandatory but please understand that it can help us grow our small startup business")
  /*---------------------------------------------------------------------------------------------------////////////////////////////////////here is your  passcode  /////////////////////-*/     
 );  /* hi smart ass Xd if it happens that you have come accross this source code
       i did not put much complexity about its email requirement  logic  so that the code would be easy to find.
