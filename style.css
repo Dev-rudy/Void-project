@@ -85,7 +85,7 @@ body{background-image:url("background.jpg");background-size:cover;background-pos
 .right{color:fuchsia;text-shadow:1px 3px  5px lightblue;}
 @media(orientation:portrait){
 	                         .headline{font-size:2rem;margin-top:3vh;}
-							 .explore{width:15vw;height:3vh;border-radius:2vw;font-size:1rem;color:lightblue;border:1px  solid purple;}
+							 .explore{width:15vw;height:4vh;border-radius:2vw;font-size:1rem;color:lightblue;border:1px  solid purple;}
 							 .greet-page-desc{font-size:1rem;}}
 
 .cta-title{color:white;font-size:1.5rem;text-align:center;background:rgba(90, 4, 133, 0.62);}
@@ -111,11 +111,12 @@ body{background-image:url("background.jpg");background-size:cover;background-pos
                              .topic:hover{height:20vh;}
                              .cta-img{height:auto;width:80%;margin-left:10%;}
 							  .back{width:15vw;height:7vh;right:0vw;bottom:0;}
+							  .back3{width:15vw;height:7vh;right:0vw;bottom:0;}
 							  #back{width:100%;height:auto;right:0;opacity:0.5;}}
 
 
 .container-one{border:1px solid transparent;width:99vw;height:35vh;display:grid;grid-template-columns:repeat(3,1fr);border-bottom:10px solid rgba(90, 4, 133, 0.62);border-radius:0 0 10px 10px;overflow-y:hidden;}
-.headline-content-img{width:20vw;height:100%;border:2px solid transparent;overflow-y:hidden;}
+.headline-content-img{width:100%;height:100%;border:2px solid transparent;overflow-y:hidden;}
 .headline-description{width:60vw;height:100%;border:2px solid transparent;overflow-y:hidden;}
 .headline-title{background-image:linear-gradient(to right,fuchsia,blue,fuchsia);color:white;text-align:center;font-size:1.5rem;border-radius:1vw; }
 .headline-p{color:#ff347f;filter:blur(3px);font-size:1.5rem;cursor:pointer;}
@@ -126,14 +127,14 @@ body{background-image:url("background.jpg");background-size:cover;background-pos
 .headline-cta{width:20vw;height:100%;border:2px solid transparent;display:grid;grid-template-rows:repeat(2,1fr);padding:1vw;background:rgba(54, 3, 63, 0.66);}
 .headline-img{height:100%;width:100%;border-radius:1vw;}
 
-#ads{height:10vh;width:80%;border-radius:10px;cursor:pointer;transition-duration:2s;}
+#ads{height:10vh;width:99%;border-radius:10px;cursor:pointer;transition-duration:2s;}
 
-#ads2{height:10vh;width:80%;border-radius:10px;cursor:pointer;transition-duration:2s;}
+#ads2{height:10vh;width:99%;border-radius:10px;cursor:pointer;transition-duration:2s;}
 
 @media(orientation:portrait){.container-one{height:12vh;border-bottom:5px solid rgba(90, 4, 133, 0.62);}
 	                          .headline-title{font-size:.5rem;}
 							   .headline-p{font-size:.7rem;text-align:center;}
-							   .headline-content-img{width:20vw;}
+							   .headline-content-img{width:100%;}
 							   .headline-img{height:100%;width:100%;}
 							   .headline-description{width:50vw;}
 							    #ads{height:5vh;width:100%;border-radius:1vw;}
@@ -315,7 +316,7 @@ input[type="radio"]{display:inline-block;}
 #bmenu-one{width:11vw;overflow:hidden;margin:auto;}
 
 #bmenu-two{display:grid;grid-template-columns:repeat(2,1fr);overflow:hidden;background-image:linear-gradient(to right,fuchsia,blue,purple);transition-duration:2s;}
-.menu-buttons{width:98%;height:96%;border:3px  groove purple;color:white;transition-duration:2s;}
+.menu-buttons{width:98%;height:94%;border:3px  groove purple;color:white;transition-duration:2s;}
 #btns-1{margin-left:23%;margin-top:10%;background:transparent;color:lightblue;font-weight:bold;font-size:3vw;border:none;}
 #btns-1:hover{color:fuchsia;}
 #btns-2{margin-left:2%;margin-top:10%;background:transparent;color:lightblue;font-weight:bold;font-size:1.5vw;border:none;}
@@ -339,11 +340,18 @@ input[type="radio"]{display:inline-block;}
 .site{color:purple;text-align:center;margin-top:5vh;font-weight:bold;font-size:2vw;}
 .site:hover{color:#ff347f;}
 @media(orientation:portrait){
-	                       .burger-menu{height:10vh;width:80%;top:35%;left:10%;)}
+	                       .burger-menu{height:10vh;width:80%;top:20%;left:10%;)}
 						   .b-back{right:0vw;width:4vw;}
 						   #b-back{width:3.5vw;height:2vh;}
 						   .site{font-size:2rem;margin-top:2vh;}
-						   .partner-1{width:9vw;height:6vh;}}
+						   .partner-1{width:9vw;height:6vh;}
+						   #btns-2{font-size:.3rem}
+						   #btns-3{font-size:.3rem;margin-top:0%;margin-left:10%;}
+						   #btns-4{font-size:.3rem;margin-top:0%;}
+						   .menu-buttons{height:90%;border:1px solid purple;}
+						   #menu-three{height:90%;}
+                           #menu-four{height:90%;}
+						   }
 
 .all-blog-contents{width:80%;height:90%;border:2px solid hidden;position:absolute;background:rgba(4, 0, 2, 0.71);top:5%;left:10%;display:none;overflow-y:auto;border-radius:1vw;background-image:url("Untitled-4.png");background-position:center;background-repeat:no-repeat;background-size:20vw;}
 
@@ -438,11 +446,11 @@ mark{text-align:left;}
 
 .more-contentz{border:1vw solid  transparent;height:200%;width:98%;display:none;}
 .more-cont-head{font-size:1rem;color:white;text-align:center;text-decoration:underline double fuchsia;}
-.contz-container{border:1px solid fuchsia;height:96%;width:99%;margin:auto;display:grid;grid-template-columns:repeat(5,1fr);gap:1vw;overflow-y:auto;}
-.contz-item{border:1px solid fuchsia;height:50vh;text-align:center;color:white;background-image:url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3JtNTU4LWVsZW1lbnRzLXdvcmQtMDEteC5qcGc.jpg");background-size:cover;background-repeat:norepeat;background-position:center;}
+.contz-container{border:1px solid transparent;height:96%;width:99%;margin:auto;display:grid;grid-template-columns:repeat(5,1fr);gap:1vw;overflow-y:auto;}
+.contz-item{border:1px solid transparent;height:50vh;text-align:center;color:white;background:black;border-radius:1vw;/*background-image:url("");background-size:cover;background-repeat:norepeat;background-position:center;*/}
 
-.contz-head{background:black;position:relative;top:80%;font-size:1rem;}
-.contz-p{background:black;position:relative;top:80%;}
+.contz-head{background:black;font-size:1.5rem;color:lightblue;}
+.contz-p{background:black;color:lightgreen;}
 /*
 #contz-i-1{background-image:url("");background-size:cover;background-repeat:norepeat;background-position:center;}
 #contz-i-2{background-image:url("");background-size:cover;background-repeat:norepeat;background-position:center;}
@@ -464,6 +472,8 @@ mark{text-align:left;}
                                .prods{height:10vh;}
 							   .partnerss{height:16vh;}
 							   .affiliate-portals{height:40%;}
+							   .contz-container{grid-template-columns:repeat(1,1fr);}
+							   .contz-item{height:40vh;}
 							   }
 
 
@@ -494,9 +504,9 @@ mark{text-align:left;}
 									.art-eight-cont{height:50vh;}
 									.art-item-head{font-size:1rem;}
 
-									.headline-img{height:100%;width:auto;}
+									.headline-img{height:100%;width:100%;}
 	                                .topic{height:2vh;}
-									.explore{height:2vh;}
+									.explore{height:3vh;}
 									.burger-menu{height:8vh;}
 									.free-stuff{width:99%;margin-left:0;}
 									.nav{height:7vh;}
@@ -564,7 +574,7 @@ mark{text-align:left;}
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
  	      /*///////////////////////////////////////////////Start  Iphone XR  ////////////////////////////h:896/w:414 /////////////*/
 @media screen and(max-height:896px ),   /*PORTRAIT MODE*/                       
-       screen and (max-width:414px){.explore{height:2vh;}
+       screen and (max-width:414px){.explore{height:3vh;}
 	                                .greet-page{height:87vh;}
 									.topic{height:1.8vh;}
 									.partners{margin-top:1vh;}
@@ -628,7 +638,9 @@ mark{text-align:left;}
 	 
      /*///////////////////////////////////////////////Start  GALAXY NOTE 3 ////////////////////////////h:640/w:360 ///////the only problem is landscape//////*/
 	 @media screen and(max-height:640px ),    /*PORTRAIT MODE*/                      
-       screen and (max-width:360px){}
+       screen and (max-width:360px){.course-paragraph{height:80%;}
+	                                 .course-descriptions{height:100%;}
+									 .headline-img{width:100%;}}
 	 
 	 
 	 @media screen and(max-height:360px ),/*LANDSCAPE MODE*/                   
