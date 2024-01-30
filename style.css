@@ -410,7 +410,7 @@ input[type="radio"]{display:inline-block;}
 							#taunt{display:none;}
 							}
 							
-.trending-prods-container{border:1px solid hidden;width:80vw;height:92vh;background-image:linear-gradient(to bottom right,black,purple,black);position:absolute;top:5%;left:10%;opacity:0.0;transition-duration:1.5s;overflow:hidden;border-radius:1vw;}
+.trending-prods-container{border:1px solid hidden;width:80vw;height:92vh;background-image:linear-gradient(to bottom right,black,purple,black);position:absolute;top:5%;left:10%;/*opacity:0.0;transition-duration:1.5s;border-radius:1vw;*/overflow:hidden;display:none;}
 .best-prod-exit{width:3vw;height:6.5vh;border:1px solid hidden;overflow:hidden;position:absolute;right:0;}
 #best-prod-exit-img{width:3vw;height:auto;}
 .flash-products{border:1px solid hidden;width:auto;height:99.5%;display:grid;grid-template-columns:repeat(4,1fr);gap:2vw;padding:1vw;}

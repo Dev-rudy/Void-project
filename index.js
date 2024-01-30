@@ -455,9 +455,9 @@ function  exitProd(){
 }
 
 
-window.onload=function(){  
+/*window.onload=function(){  
 document.getElementById("trending-prods-container").style.opacity="1"
-}
+}*/
 
 const exitApps=document.getElementById("exit-app-img");
       exitApps.addEventListener("click",exitFunczs);
