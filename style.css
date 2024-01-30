@@ -249,7 +249,7 @@ body{background-image:url("background.jpg");background-size:cover;background-pos
 							  .art-item-one{margin-top:0px;}
 							  }
 
-.email-submit-popup{position:absolute;background:black;height:100%;width:100%;top:0vh;left:0vw;/*display:none;*/background-image:url("3HeZ.gif");background-size:cover;background-repeat:norepeat;background-position:center;overflow:show;}
+.email-submit-popup{position:absolute;background:black;height:100%;width:100%;top:0vh;left:0vw;display:none;background-image:url("3HeZ.gif");background-size:cover;background-repeat:norepeat;background-position:center;overflow:show;}
 .email-submit-head{color:white;text-align:center;background:rgba(90, 4, 133, 0.62);}
 .email-submit-p{color:white;text-align:center;white-space:}
 .input-cont{margin:auto;border:1px solid  hidden;width:20vw;height:60vh;padding:2vw;background-image:linear-gradient(to bottom,transparent,purple,transparent);transition-duration:2s;overflow:hidden;}

@@ -364,7 +364,7 @@ function sendEmail(){
 };
 
 
-function validateCode(){
+/*function validateCode(){
   let x=document.getElementById("code").value;
     if(x==="ZsZ4NVRr"){document.getElementById("email-submit-popup").style.display="none";alert("please get or review as much resources as can, before you refresh the whole  page,if you refresh the page  without getting anything then you will have to put on email or get the code  again ");}
 };
@@ -373,7 +373,7 @@ const email3=document.getElementById("E-mail");
      email3.addEventListener("focus",theFuncs);
 function theFuncs(){
     document.getElementById("submit").disabled=false;
-}
+}*/
 
 
 
