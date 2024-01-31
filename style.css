@@ -189,7 +189,7 @@ body{background-image:url("background.jpg");background-size:cover;background-pos
 							   
 							   .container-shop-items-s2{height:20vh;width:98vw;overflow-y:hidden;}
 							   .shop-items-s2{width:25vw;height:20vh;}
-							   .article-img-s2{height:7vh;width:auto;}
+							   .article-img-s2{height:auto;width:70%;}
 							   .article-head-s2{font-size:.5rem;}
 							   .article-desc-s2{font-size:.5rem;}
 							   }                                                            /*-------------END------------*/
@@ -616,7 +616,7 @@ mark{text-align:left;}
 									  .headline-title{font-size:.5rem}
 									   .article-head{font-size:.5rem;}
 									   .tool-head{font-size:.5rem;}
-									   .article-img-s2{height:20vh;}
+									   .article-img-s2{height:auto;}
 									   .article-head-s2{font-size:.5rem;}
 							   .article-desc-s2{font-size:.5rem;}
 									 }
